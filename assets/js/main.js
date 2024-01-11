@@ -232,12 +232,8 @@ function onSubmit(e) {
   console.log("formData", formData);
 
   const data = Object.fromEntries(formData);
-  
-  console.log("Data from the form", data);
 
   sendEmail(myEmail, data.email, data.subject, data.body);
-
-  console.log('Data para el to: ', data)
 
   sendEmail(
     data.email,

@@ -75,9 +75,9 @@ body {
   }
 
   .gradient-background {
-    background: linear-gradient(290deg, #00bfff, #241468, #252B48);
+    background: linear-gradient(290deg, #00bfff, #511477, #252B48);
     background-size: 180% 170%;
-    animation: gradient-animation 18s ease infinite;
+    animation: gradient-animation 10s ease infinite;
   }
   
   @keyframes gradient-animation {
